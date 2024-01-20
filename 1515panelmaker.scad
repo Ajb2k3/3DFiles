@@ -24,9 +24,9 @@ sphere(1); // If this is increased, Wall thickness must be increased.
 }
 
 rotate([90,0,0])
-cylinder(Length+2,Screw_hole/2,Screw_hole/2, center=true);
-rotate([0,90,0])
 cylinder(Width+2,Screw_hole/2,Screw_hole/2, center=true);
+rotate([0,90,0])
+cylinder(Length+2,Screw_hole/2,Screw_hole/2, center=true);
 }
 
 
